@@ -1,0 +1,6 @@
+Field1,BeginDate,EndDate,Issuer,Sector,Industry,Country,Conviction,Analyst
+xxx,,,JBL,Computers,,USA,,
+yyy,,,PIPR,Consumer Discretionary,,USA,High,
+zzzzz,,,FR,,,USA,,
+rec-4,2024-02-01,,FR,,,FRA,Low,Sally
+rec-5,2024-03-01,,IBM,,,,Low,

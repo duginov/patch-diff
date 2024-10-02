@@ -1,0 +1,40 @@
+# Project files
+*.wpr
+*.wpu
+*.userprefs
+*.idea
+.vs
+.vscode
+*.slnf
+
+# IDE 
+.idea/
+
+#Local directory build info
+bin/
+obj/
+
+#Mac index files
+.DS_Store
+
+#ignore backup files
+*.bak
+.#*
+\#*
+*~
+
+#c sharp specific files
+*.suo
+*.pidb
+gen-*/
+_ReSharper.*/
+*.user
+*.mdproj
+*.mdb
+
+# ignore these
+*.orig
+
+*.dotCover
+
+TestResults/
