@@ -2,7 +2,7 @@
   "profiles": {
     "PatchDiff": {
       "commandName": "Project",
-      "commandLineArgs": "input-files\\Patch1.csv input-files\\Patch2.csv"
+      "commandLineArgs": "input-files\\Patch0.csv input-files\\Patch4.csv"
     }
   }
 }
