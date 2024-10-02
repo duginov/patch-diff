@@ -39,3 +39,6 @@ and would open it in a text editor.
 Some code and patterns in this excercise may bee seen as redundant/verbose. However, I did not try to 
 write as few lines of code as possible. Instead I wrote it in a way I would approach a new app that
 may have simple requirements right now but later will likely be extended. 
+
+I did not rename original template folders, but I remaned project names in the solution to make it more clear.
+"DiffToolApp" is a startup project.
