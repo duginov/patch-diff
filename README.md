@@ -9,7 +9,7 @@ This document decribes overall approach.
 Patch diff results can be expressed in many human-readable ways. 
 After reading the prompt and looking at provided patch samples I made the following decisions:
 
-Key+BeginDate+EndDate combination will be used as a "master key"" to identify existing/new/removed lines
+Key+BeginDate+EndDate combination will be used as a "master key" to identify existing/new/removed lines
 
 Based on provided samples I found that the same master key may appear more than once with different values.
 I'm combining such real lines from the file into one "logical" line. It's happening from top to bottom,
@@ -39,3 +39,6 @@ and would open it in a text editor.
 Some code and patterns in this excercise may bee seen as redundant/verbose. However, I did not try to 
 write as few lines of code as possible. Instead I wrote it in a way I would approach a new app that
 may have simple requirements right now but later will likely be extended. 
+
+I did not rename original template folders, but I renamed project names in the solution to make it more clear.
+"DiffToolApp" is a startup project.
