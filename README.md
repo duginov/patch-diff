@@ -9,7 +9,7 @@ This document decribes overall approach.
 Patch diff results can be expressed in many human-readable ways. 
 After reading the prompt and looking at provided patch samples I made the following decisions:
 
-Key+BeginDate+EndDate combination will be used as a "master key"" to identify existing/new/removed lines
+Key+BeginDate+EndDate combination will be used as a "master key" to identify existing/new/removed lines
 
 Based on provided samples I found that the same master key may appear more than once with different values.
 I'm combining such real lines from the file into one "logical" line. It's happening from top to bottom,
